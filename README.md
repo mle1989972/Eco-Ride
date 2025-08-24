@@ -1,5 +1,20 @@
 # EcoRide — TP Développeur Web & Web Mobile
 
+> ## Liens utiles
+> • Déploiement Front : https://…  
+> • Déploiement API : https://…  
+> • Dépôt GitHub (public) : https://github.com/mle1989972/Eco-Ride  
+> • Board Kanban (Trello) : https://trello.com/b/a8347yxi/gestion-de-projet-ecoride
+
+## Comptes de test (ECF)
+- Admin : admin@ecoride.local / Admin123!
+- Employé : employee@ecoride.local / Employee123!
+- Chauffeur : driver@ecoride.local / Driver123!
+- Passager : rider@ecoride.local / Rider123!
+
+> ⚠️ Ces identifiants sont destinés au jury. 
+
+
 Projet **back + front** pour une plateforme de covoiturage.  
 Objectifs ECF couverts : authentification, recherche et publication de trajets, participation avec double confirmation, gestion des crédits, avis & modération, incidents (employé), administration (employés + statistiques), **front statique** (HTML/CSS/JS), **base relationnelle (PostgreSQL)** et **NoSQL (MongoDB)**.
 
