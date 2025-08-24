@@ -1,0 +1,9 @@
+﻿# Node / Web classiques
+node_modules/
+dist/
+build/
+.env
+.vscode/
+.DS_Store
+# Logs
+*.log
