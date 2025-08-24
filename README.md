@@ -296,8 +296,8 @@ Tests fournis :
 
 ## 📜 Licence
 
-Projet pédagogique dans le cadre de l’ECF (usage éducatif).
+Projet pédagogique dans le cadre de l’ECF TP DWWM.
 
 ---
 
-**Bon courage ✨** — et si besoin, ouvre une issue ou ping pour de l’aide.
+
