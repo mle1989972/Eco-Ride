@@ -296,6 +296,6 @@ npm run test:watch
 
 ---
 
-## 📜 Licence
+## Licence
 
 Projet pédagogique dans le cadre de l’ECF TP DWWM.
