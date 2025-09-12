@@ -16,7 +16,7 @@
 
 ---
 
-## 📦 Livrables
+## Livrables
 
 Tous les livrables exigés par l’énoncé sont présents dans le dossier [`/livrables`](./livrables/).
 
@@ -34,7 +34,7 @@ Objectifs ECF couverts : authentification, recherche et publication de trajets, 
 
 ---
 
-## 🧱 Stack technique
+## Stack technique
 
 - **Backend** : Node.js (ESM) / Express, PostgreSQL (pg), JWT (jsonwebtoken), Joi (validation), Nodemailer (emails)
 - **NoSQL** : MongoDB (journalisation d’événements via `src/mongo/`)
@@ -44,7 +44,7 @@ Objectifs ECF couverts : authentification, recherche et publication de trajets, 
 
 ---
 
-## 📂 Arborescence
+## Arborescence
 
 ```
 Eco-Ride/
@@ -131,7 +131,7 @@ Eco-Ride/
 
 ---
 
-## ⚙️ Prérequis
+## Prérequis
 
 - Node.js 18+ (recommandé : 20)
 - PostgreSQL 14+
@@ -140,7 +140,7 @@ Eco-Ride/
 
 ---
 
-## 🔐 Variables d’environnement (`.env`)
+## Variables d’environnement (`.env`)
 
 Copier `.env.example` vers `.env` puis compléter :
 
@@ -159,7 +159,7 @@ MONGODB_URI=mongodb://localhost:27017/ecoride
 
 ---
 
-## 🛠️ Installation (local)
+## Installation (local)
 
 1) **Installer les dépendances**
 ```bash
@@ -186,7 +186,7 @@ node scripts/createAdmin.js --email=admin@ecoride.local --pseudo=Admin --passwor
 
 ---
 
-## 🐳 Démarrage via Docker
+## Démarrage via Docker
 
 1) **Lancer la stack**
 ```bash
@@ -205,7 +205,7 @@ docker compose exec app node scripts/createAdmin.js --email=admin@ecoride.local 
 
 ---
 
-## 🧭 Parcours front
+## Parcours front
 
 - `GET /` → page d’accueil (index.html) : recherche trajets + suggestion si aucun résultat
 - `GET /trip.html?id=...` : détail trajet + double confirmation de participation
@@ -216,7 +216,7 @@ docker compose exec app node scripts/createAdmin.js --email=admin@ecoride.local 
 
 ---
 
-## 🔌 API — endpoints principaux
+## API — endpoints principaux
 
 ### Auth
 - `POST /api/auth/register`
@@ -255,7 +255,7 @@ docker compose exec app node scripts/createAdmin.js --email=admin@ecoride.local 
 
 ---
 
-## 🧪 Tests (Vitest + Supertest)
+## Tests (Vitest + Supertest)
 
 Tests disponibles :
 - `src/tests/health.test.js`
@@ -270,7 +270,7 @@ npm run test:watch
 
 ---
 
-## 🔒 Rôles & sécurité
+## Rôles & sécurité
 
 - Rôles : `user` (défaut), `employee`, `admin`
 - Authentification : JWT (Bearer Token)
@@ -279,7 +279,7 @@ npm run test:watch
 
 ---
 
-## 🚀 Déploiement
+## Déploiement
 
 - Image Docker `Dockerfile`
 - Variables d’env à configurer : `DATABASE_URL`, `JWT_SECRET`, `MONGODB_URI`, SMTP
@@ -287,7 +287,7 @@ npm run test:watch
 
 ---
 
-## 🧭 Conseils & troubleshooting
+## Conseils & troubleshooting
 
 - **Statique non servi** → vérifier `express.static` dans `src/app.js`
 - **401 Unauthorized** → vérifier Authorization: Bearer + `JWT_SECRET`
