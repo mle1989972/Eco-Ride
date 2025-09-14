@@ -13,7 +13,7 @@
 - Taille minimale: 120 px de large (écran), 25 mm (print).
 
 ## 2. Couleurs
-![Palette](../public/brand/palette.png)
+
 
 | Token | Hex |
 |------|-----|
