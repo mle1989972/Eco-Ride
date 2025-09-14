@@ -1,13 +1,12 @@
-
 # EcoRide — Plateforme de covoiturage (ECF TP Développeur Web & Web Mobile)
 
 Application web de covoiturage focalisée sur l'impact écologique (voitures électriques mises en avant) et l'économie d'usage.
 
-> **Liens utiles (à remplacer par les vôtres)**  
-> • Déploiement Front : https://…  
-> • Déploiement API : https://…  
-> • Dépôt GitHub (public) : https://github.com/…/ecoride  
-> • Board Kanban (Trello/Notion/Jira) : https://…  
+> **Liens utiles**  
+> • Déploiement Front : https://ecoride-mlesw.vercel.app
+> • Déploiement API : https://ecoride-api.onrender.com
+> • Dépôt GitHub (public) : https://github.com/mle1989972/Eco-Ride
+> • Board Kanban (Trello) : https://trello.com/b/a8347yxi/gestion-de-projet-ecoride
 
 ---
 
