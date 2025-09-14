@@ -1,8 +1,8 @@
 # EcoRide — TP Développeur Web & Web Mobile
 
 > ## Liens utiles
-> • Déploiement Front : https://…  
-> • Déploiement API : https://…  
+> • Déploiement Front : https://ecoride-mlesw.vercel.app
+> • Déploiement API : https://ecoride-api.onrender.com
 > • Dépôt GitHub (public) : https://github.com/mle1989972/Eco-Ride  
 > • Board Kanban (Trello) : https://trello.com/b/a8347yxi/gestion-de-projet-ecoride
 
