@@ -1,4 +1,3 @@
-
 # Charte Graphique — EcoRide
 
 ## 1. Identité
