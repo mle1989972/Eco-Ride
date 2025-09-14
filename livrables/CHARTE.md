@@ -1,6 +1,5 @@
 
 # Charte Graphique — EcoRide
-_MAJ: 2025-08-22_
 
 ## 1. Identité
 **Positionnement**: application de covoiturage à impact positif. Ton visuel: moderne, accessible, rassurant.  
