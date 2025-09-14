@@ -171,4 +171,3 @@ Usage pédagogique (ECF).
 
 ---
 
-_Mis à jour le 2025-08-22._
